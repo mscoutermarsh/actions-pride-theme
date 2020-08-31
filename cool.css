@@ -1,13 +1,33 @@
+.CheckStep-header:hover {
+  background: repeating-linear-gradient(
+    -45deg,
+    red 0%,
+    orange 6.25%,
+    yellow 12.5%,
+    lime 18.75%,
+    cyan 25%,
+    blue 31.25%,
+    purple 37.5%,
+    magenta 43.75%,
+    red 50%
+  );
+  background-size: 600vw 600vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: slide 3s linear infinite forwards;
+}
+
 .CheckStep-line-content {
   background: repeating-linear-gradient(
     -45deg,
     red 0%,
-    orange 7.14%,
-    yellow 14.28%,
-    lime 21.42%,
-    cyan 28.56%,
-    blue 35.7%,
-    magenta 42.84%,
+    orange 6.25%,
+    yellow 12.5%,
+    lime 18.75%,
+    cyan 25%,
+    blue 31.25%,
+    purple 37.5%,
+    magenta 43.75%,
     red 50%
   );
   background-size: 600vw 600vw;
@@ -15,6 +35,7 @@
   -webkit-background-clip: text;
   animation: slide 10s linear infinite forwards;
 }
+
 @keyframes slide {
   0%{
     background-position-x: 0%;
