@@ -34,6 +34,22 @@
   animation: slide 10s linear infinite forwards;
 }
 
+.btn-primary {
+  background-size: 800px !important;
+  background: repeating-linear-gradient(
+    -45deg,
+    #cb2431 0%,
+    #e36209 6.25%,
+    #ffd33d 12.5%,
+    #22863a 18.75%,
+    #0366d6 25%,
+    #6f42c1 31.25%,
+    #ea4aaa 37.5%,
+    #cb2431 50%
+  );
+  animation: slide 80s linear infinite forwards;
+}
+
 @keyframes slide {
   0%{
     background-position-x: 0%;
