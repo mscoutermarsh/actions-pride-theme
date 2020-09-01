@@ -59,3 +59,20 @@
   }
 }
 
+.insta-gradient {
+  background: repeating-linear-gradient(
+    -45deg,
+    #cb2431 0%,
+    #e36209 6.25%,
+    #ffd33d 12.5%,
+    #22863a 18.75%,
+    #0366d6 25%,
+    #6f42c1 31.25%,
+    #ea4aaa 37.5%,
+    #cb2431 50%
+  );
+  background-size: 600vw 600vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: slide 10s linear infinite forwards;
+}

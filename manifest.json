@@ -6,8 +6,10 @@
               "48": "icon.png",
               "128": "icon.png" },
   "content_scripts": [
-   {
-      "matches":    ["https://github.com/*"],
-      "css":        ["cool.css"]
-   }]
+    {
+      "matches": ["https://github.com/*"],
+      "css": ["cool.css"],
+      "js": ["cool.js"]
+    }
+  ]
 }
