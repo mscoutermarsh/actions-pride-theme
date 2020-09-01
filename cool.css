@@ -34,7 +34,7 @@
   animation: slide 10s linear infinite forwards;
 }
 
-.btn-primary {
+.btn-rainbow {
   background-size: 800px !important;
   background: repeating-linear-gradient(
     -45deg,
@@ -48,6 +48,9 @@
     #cb2431 50%
   );
   animation: slide 80s linear infinite forwards;
+}
+.btn-rainbow:hover {
+  box-shadow: 2px 2px 5px 0px rgba(208, 50, 50, 0.6);
 }
 
 @keyframes slide {
