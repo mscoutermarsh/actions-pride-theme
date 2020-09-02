@@ -4,6 +4,10 @@ This Chrome extension turns your GitHub Actions logs into a rainbow 🌈. Plus a
 
 ![](https://github.com/mscoutermarsh/actions-pride-theme/blob/main/rainbow.gif?raw=true)
 
+## Preview
+
+![](https://github.com/mscoutermarsh/actions-pride-theme/blob/main/screenshot.png?raw=true)
+
 ## Dev
 Clone this repo.
 
