@@ -1,4 +1,6 @@
-# actions-hack
+# Actions Pride Theme 🌈🌈🌈
+
+amazing gif goes here
 
 ## Dev
 Clone this repo.
