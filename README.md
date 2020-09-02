@@ -1,6 +1,8 @@
 # Actions Pride Theme 🌈🌈🌈
 
-amazing gif goes here
+This Chrome extension turns your GitHub Actions logs into a rainbow 🌈. Plus a few other surprises!
+
+
 
 ## Dev
 Clone this repo.
