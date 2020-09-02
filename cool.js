@@ -1,5 +1,5 @@
 for (var row of document.querySelectorAll(".Box-row > div > div > span > a")) {
-  row.classList.add("insta-gradient");
+  row.classList.add("text-rainbow");
 }
 
 // Rainbow the workflow run button

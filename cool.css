@@ -1,53 +1,30 @@
-.CheckStep-header:hover {
+.CheckStep-header:hover,
+.CheckStep-line-content,
+.text-rainbow,
+.btn-rainbow {
+  background-size: 600vw 600vw;
   background: repeating-linear-gradient(
     -45deg,
     #cb2431 0%,
-    #e36209 6.25%,
-    #ffd33d 12.5%,
-    #22863a 18.75%,
-    #0366d6 25%,
-    #6f42c1 31.25%,
-    #ea4aaa 37.5%,
+    #e36209 7.14%,
+    #ffd33d 14.28%,
+    #22863a 21.42%,
+    #0366d6 28.56%,
+    #6f42c1 35.7%,
+    #ea4aaa 42.84%,
     #cb2431 50%
   );
-  background-size: 600vw 600vw;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  animation: slide 3s linear infinite forwards;
+  animation: slide 80s linear infinite forwards;
 }
 
-.CheckStep-line-content {
-  background: repeating-linear-gradient(
-    -45deg,
-    #cb2431 0%,
-    #e36209 6.25%,
-    #ffd33d 12.5%,
-    #22863a 18.75%,
-    #0366d6 25%,
-    #6f42c1 31.25%,
-    #ea4aaa 37.5%,
-    #cb2431 50%
-  );
-  background-size: 600vw 600vw;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  animation: slide 10s linear infinite forwards;
+.CheckStep-header:hover {
+  animation: slide 40s linear infinite forwards;
 }
 
 .btn-rainbow {
   background-size: 800px !important;
-  background: repeating-linear-gradient(
-    -45deg,
-    #cb2431 0%,
-    #e36209 6.25%,
-    #ffd33d 12.5%,
-    #22863a 18.75%,
-    #0366d6 25%,
-    #6f42c1 31.25%,
-    #ea4aaa 37.5%,
-    #cb2431 50%
-  );
-  animation: slide 80s linear infinite forwards;
 }
 .btn-rainbow:hover {
   box-shadow: 2px 2px 5px 0px rgba(208, 50, 50, 0.6);
@@ -60,22 +37,4 @@
   100%{
     background-position-x: 600vw;
   }
-}
-
-.insta-gradient {
-  background: repeating-linear-gradient(
-    -45deg,
-    #cb2431 0%,
-    #e36209 6.25%,
-    #ffd33d 12.5%,
-    #22863a 18.75%,
-    #0366d6 25%,
-    #6f42c1 31.25%,
-    #ea4aaa 37.5%,
-    #cb2431 50%
-  );
-  background-size: 600vw 600vw;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  animation: slide 10s linear infinite forwards;
 }
