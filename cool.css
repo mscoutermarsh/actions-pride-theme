@@ -1,6 +1,7 @@
 .CheckStep-header:hover,
 .CheckStep-line-content,
-.text-rainbow,
+.js-check-run-blankslate,
+.filter-item.selected,
 .btn-rainbow {
   background-size: 600vw 600vw;
   background: repeating-linear-gradient(
@@ -28,6 +29,11 @@
 }
 .btn-rainbow:hover {
   box-shadow: 2px 2px 5px 0px rgba(208, 50, 50, 0.6);
+}
+
+/* Make sure that the workflow icon keeps its color */
+.filter-item.selected {
+  color: #586069 !important;
 }
 
 @keyframes slide {

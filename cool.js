@@ -1,7 +1,3 @@
-for (var row of document.querySelectorAll(".Box-row > div > div > span > a")) {
-  row.classList.add("text-rainbow");
-}
-
 // Rainbow the workflow run button
 document.querySelectorAll('include-fragment').forEach(item => {
   item.addEventListener('load', event => {
